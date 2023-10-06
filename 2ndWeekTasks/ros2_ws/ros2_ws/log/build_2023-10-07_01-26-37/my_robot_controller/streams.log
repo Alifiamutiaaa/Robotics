@@ -1,0 +1,18 @@
+[1.838s] Invoking command in '/home/pipi/ros2_ws/build/my_robot_controller': PYTHONPATH=/home/pipi/ros2_ws/build/my_robot_controller/prefix_override:/home/pipi/ros2_ws/install/my_robot_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pipi/ros2_ws/build/my_robot_controller/build --no-deps install_data
+[2.227s] running develop
+[2.476s] running egg_info
+[2.478s] writing my_robot_controller.egg-info/PKG-INFO
+[2.478s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[2.478s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[2.478s] writing requirements to my_robot_controller.egg-info/requires.txt
+[2.478s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[2.545s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[2.547s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[2.614s] running build_ext
+[2.617s] Creating /home/pipi/ros2_ws/install/my_robot_controller/lib/python3.8/site-packages/my-robot-controller.egg-link (link to .)
+[2.618s] Installing test_node = my_robot_controller.my_first_node:maindraw_circle script to /home/pipi/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[2.619s] 
+[2.619s] Installed /home/pipi/ros2_ws/build/my_robot_controller
+[2.619s] running install_data
+[2.619s] copying package.xml -> /home/pipi/ros2_ws/install/my_robot_controller/share/my_robot_controller
+[2.678s] Invoked command in '/home/pipi/ros2_ws/build/my_robot_controller' returned '0': PYTHONPATH=/home/pipi/ros2_ws/build/my_robot_controller/prefix_override:/home/pipi/ros2_ws/install/my_robot_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pipi/ros2_ws/build/my_robot_controller/build --no-deps install_data
