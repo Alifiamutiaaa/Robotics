@@ -1,0 +1,28 @@
+[1.489s] Invoking command in '/home/pipi/ros2_ws/src/build/my_robot_controller': PYTHONPATH=/home/pipi/ros2_ws/src/build/my_robot_controller/prefix_override:/home/pipi/ros2_ws/src/install/my_robot_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pipi/ros2_ws/src/build/my_robot_controller/build --no-deps install_data
+[1.842s] running develop
+[2.098s] running egg_info
+[2.098s] creating my_robot_controller.egg-info
+[2.100s] writing my_robot_controller.egg-info/PKG-INFO
+[2.101s] writing dependency_links to my_robot_controller.egg-info/dependency_links.txt
+[2.102s] writing entry points to my_robot_controller.egg-info/entry_points.txt
+[2.104s] writing requirements to my_robot_controller.egg-info/requires.txt
+[2.104s] writing top-level names to my_robot_controller.egg-info/top_level.txt
+[2.108s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[2.163s] reading manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[2.165s] writing manifest file 'my_robot_controller.egg-info/SOURCES.txt'
+[2.232s] running build_ext
+[2.233s] Creating /home/pipi/ros2_ws/src/install/my_robot_controller/lib/python3.8/site-packages/site.py
+[2.236s] Creating /home/pipi/ros2_ws/src/install/my_robot_controller/lib/python3.8/site-packages/my-robot-controller.egg-link (link to .)
+[2.238s] Installing draw_circle script to /home/pipi/ros2_ws/src/install/my_robot_controller/lib/my_robot_controller
+[2.239s] Installing pose_subscriber script to /home/pipi/ros2_ws/src/install/my_robot_controller/lib/my_robot_controller
+[2.240s] Installing test_node script to /home/pipi/ros2_ws/src/install/my_robot_controller/lib/my_robot_controller
+[2.240s] Installing turtle_controller script to /home/pipi/ros2_ws/src/install/my_robot_controller/lib/my_robot_controller
+[2.241s] 
+[2.242s] Installed /home/pipi/ros2_ws/src/build/my_robot_controller
+[2.242s] running install_data
+[2.242s] creating /home/pipi/ros2_ws/src/install/my_robot_controller/share/ament_index
+[2.243s] creating /home/pipi/ros2_ws/src/install/my_robot_controller/share/ament_index/resource_index
+[2.243s] creating /home/pipi/ros2_ws/src/install/my_robot_controller/share/ament_index/resource_index/packages
+[2.243s] copying resource/my_robot_controller -> /home/pipi/ros2_ws/src/install/my_robot_controller/share/ament_index/resource_index/packages
+[2.244s] copying package.xml -> /home/pipi/ros2_ws/src/install/my_robot_controller/share/my_robot_controller
+[2.307s] Invoked command in '/home/pipi/ros2_ws/src/build/my_robot_controller' returned '0': PYTHONPATH=/home/pipi/ros2_ws/src/build/my_robot_controller/prefix_override:/home/pipi/ros2_ws/src/install/my_robot_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/pipi/ros2_ws/src/build/my_robot_controller/build --no-deps install_data

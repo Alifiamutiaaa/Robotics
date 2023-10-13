@@ -1,0 +1,22 @@
+[1.937s] Invoking command in '/home/pipi/ros2_ws/src/my_robot_controller': PYTHONPATH=/home/pipi/ros2_ws/build/my_robot_controller/prefix_override:/home/pipi/ros2_ws/install/my_robot_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/pipi/ros2_ws/build/my_robot_controller/build install --record /home/pipi/ros2_ws/build/my_robot_controller/install.log --install-scripts $base/lib/my_robot_controller --single-version-externally-managed
+[2.319s] /home/pipi/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.319s]   warnings.warn(
+[2.392s] running egg_info
+[2.394s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[2.394s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[2.395s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[2.395s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[2.396s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[2.403s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[2.405s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[2.405s] running build
+[2.406s] running build_py
+[2.406s] running install
+[2.408s] running install_lib
+[2.412s] running install_data
+[2.414s] running install_egg_info
+[2.419s] removing '/home/pipi/ros2_ws/install/my_robot_controller/lib/python3.8/site-packages/my_robot_controller-0.0.0-py3.8.egg-info' (and everything under it)
+[2.420s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/pipi/ros2_ws/install/my_robot_controller/lib/python3.8/site-packages/my_robot_controller-0.0.0-py3.8.egg-info
+[2.423s] running install_scripts
+[2.459s] writing list of installed files to '/home/pipi/ros2_ws/build/my_robot_controller/install.log'
+[2.495s] Invoked command in '/home/pipi/ros2_ws/src/my_robot_controller' returned '0': PYTHONPATH=/home/pipi/ros2_ws/build/my_robot_controller/prefix_override:/home/pipi/ros2_ws/install/my_robot_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/pipi/ros2_ws/build/my_robot_controller/build install --record /home/pipi/ros2_ws/build/my_robot_controller/install.log --install-scripts $base/lib/my_robot_controller --single-version-externally-managed

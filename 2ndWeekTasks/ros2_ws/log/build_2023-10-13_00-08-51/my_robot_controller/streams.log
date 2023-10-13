@@ -1,0 +1,48 @@
+[1.429s] Invoking command in '/home/pipi/ros2_ws/src/my_robot_controller': PYTHONPATH=/home/pipi/ros2_ws/build/my_robot_controller/prefix_override:/home/pipi/ros2_ws/install/my_robot_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/pipi/ros2_ws/build/my_robot_controller/build install --record /home/pipi/ros2_ws/build/my_robot_controller/install.log --install-scripts $base/lib/my_robot_controller --single-version-externally-managed
+[1.620s] /home/pipi/.local/lib/python3.8/site-packages/setuptools/dist.py:498: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[1.620s] !!
+[1.620s] 
+[1.620s]         ********************************************************************************
+[1.621s]         Usage of dash-separated 'script-dir' will not be supported in future
+[1.621s]         versions. Please use the underscore name 'script_dir' instead.
+[1.621s] 
+[1.621s]         This deprecation is overdue, please update your project and remove deprecated
+[1.621s]         calls to avoid build errors in the future.
+[1.621s] 
+[1.621s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[1.621s]         ********************************************************************************
+[1.621s] 
+[1.621s] !!
+[1.621s]   opt = self.warn_dash_deprecation(opt, section)
+[1.766s] running egg_info
+[1.797s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[1.799s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[1.800s] deleting ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[1.801s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[1.801s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[1.995s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.997s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.998s] running build
+[1.998s] running build_py
+[1.999s] running install
+[1.999s] /home/pipi/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.999s] !!
+[1.999s] 
+[2.000s]         ********************************************************************************
+[2.000s]         Please avoid running ``setup.py`` directly.
+[2.000s]         Instead, use pypa/build, pypa/installer or other
+[2.000s]         standards-based tools.
+[2.000s] 
+[2.000s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[2.000s]         ********************************************************************************
+[2.000s] 
+[2.001s] !!
+[2.001s]   self.initialize_options()
+[2.009s] running install_lib
+[2.030s] running install_data
+[2.049s] running install_egg_info
+[2.070s] removing '/home/pipi/ros2_ws/install/my_robot_controller/lib/python3.8/site-packages/my_robot_controller-0.0.0-py3.8.egg-info' (and everything under it)
+[2.071s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/pipi/ros2_ws/install/my_robot_controller/lib/python3.8/site-packages/my_robot_controller-0.0.0-py3.8.egg-info
+[2.071s] running install_scripts
+[2.143s] writing list of installed files to '/home/pipi/ros2_ws/build/my_robot_controller/install.log'
+[2.198s] Invoked command in '/home/pipi/ros2_ws/src/my_robot_controller' returned '0': PYTHONPATH=/home/pipi/ros2_ws/build/my_robot_controller/prefix_override:/home/pipi/ros2_ws/install/my_robot_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/pipi/ros2_ws/build/my_robot_controller/build install --record /home/pipi/ros2_ws/build/my_robot_controller/install.log --install-scripts $base/lib/my_robot_controller --single-version-externally-managed
