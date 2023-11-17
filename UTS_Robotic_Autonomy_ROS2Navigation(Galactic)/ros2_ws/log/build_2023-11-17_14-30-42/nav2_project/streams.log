@@ -1,0 +1,56 @@
+[3.433s] Invoking command in '/home/user/ros2_ws/src/ros2_nav_files/nav2_project': PYTHONPATH=/home/user/ros2_ws/install/nav2_project/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../../build/nav2_project build --build-base /home/user/ros2_ws/build/nav2_project/build install --prefix /home/user/ros2_ws/install/nav2_project --record /home/user/ros2_ws/build/nav2_project/install.log --single-version-externally-managed
+[3.702s] running egg_info
+[3.703s] creating ../../../build/nav2_project/nav2_project.egg-info
+[3.703s] writing ../../../build/nav2_project/nav2_project.egg-info/PKG-INFO
+[3.703s] writing dependency_links to ../../../build/nav2_project/nav2_project.egg-info/dependency_links.txt
+[3.704s] writing entry points to ../../../build/nav2_project/nav2_project.egg-info/entry_points.txt
+[3.704s] writing requirements to ../../../build/nav2_project/nav2_project.egg-info/requires.txt
+[3.704s] writing top-level names to ../../../build/nav2_project/nav2_project.egg-info/top_level.txt
+[3.770s] writing manifest file '../../../build/nav2_project/nav2_project.egg-info/SOURCES.txt'
+[3.806s] reading manifest file '../../../build/nav2_project/nav2_project.egg-info/SOURCES.txt'
+[3.807s] writing manifest file '../../../build/nav2_project/nav2_project.egg-info/SOURCES.txt'
+[3.807s] running build
+[3.808s] running build_py
+[3.808s] creating /home/user/ros2_ws/build/nav2_project/build
+[3.808s] creating /home/user/ros2_ws/build/nav2_project/build/lib
+[3.808s] creating /home/user/ros2_ws/build/nav2_project/build/lib/nav2_project
+[3.808s] copying nav2_project/__init__.py -> /home/user/ros2_ws/build/nav2_project/build/lib/nav2_project
+[3.808s] copying nav2_project/spot_recorder.py -> /home/user/ros2_ws/build/nav2_project/build/lib/nav2_project
+[3.808s] copying nav2_project/go_to_pose.py -> /home/user/ros2_ws/build/nav2_project/build/lib/nav2_project
+[3.809s] running install
+[3.809s] running install_lib
+[3.810s] creating /home/user/ros2_ws/install/nav2_project/lib/python3.8/site-packages/nav2_project
+[3.810s] copying /home/user/ros2_ws/build/nav2_project/build/lib/nav2_project/__init__.py -> /home/user/ros2_ws/install/nav2_project/lib/python3.8/site-packages/nav2_project
+[3.810s] copying /home/user/ros2_ws/build/nav2_project/build/lib/nav2_project/spot_recorder.py -> /home/user/ros2_ws/install/nav2_project/lib/python3.8/site-packages/nav2_project
+[3.811s] copying /home/user/ros2_ws/build/nav2_project/build/lib/nav2_project/go_to_pose.py -> /home/user/ros2_ws/install/nav2_project/lib/python3.8/site-packages/nav2_project
+[3.811s] byte-compiling /home/user/ros2_ws/install/nav2_project/lib/python3.8/site-packages/nav2_project/__init__.py to __init__.cpython-38.pyc
+[3.812s] byte-compiling /home/user/ros2_ws/install/nav2_project/lib/python3.8/site-packages/nav2_project/spot_recorder.py to spot_recorder.cpython-38.pyc
+[3.813s] byte-compiling /home/user/ros2_ws/install/nav2_project/lib/python3.8/site-packages/nav2_project/go_to_pose.py to go_to_pose.cpython-38.pyc
+[3.814s] running install_data
+[3.814s] creating /home/user/ros2_ws/install/nav2_project/share/ament_index
+[3.815s] creating /home/user/ros2_ws/install/nav2_project/share/ament_index/resource_index
+[3.815s] creating /home/user/ros2_ws/install/nav2_project/share/ament_index/resource_index/packages
+[3.815s] copying resource/nav2_project -> /home/user/ros2_ws/install/nav2_project/share/ament_index/resource_index/packages
+[3.815s] copying package.xml -> /home/user/ros2_ws/install/nav2_project/share/nav2_project
+[3.816s] creating /home/user/ros2_ws/install/nav2_project/share/nav2_project/launch
+[3.816s] copying launch/project_map_server.launch.py -> /home/user/ros2_ws/install/nav2_project/share/nav2_project/launch
+[3.816s] copying launch/cartographer.launch.py -> /home/user/ros2_ws/install/nav2_project/share/nav2_project/launch
+[3.816s] copying launch/nav2_project.launch.py -> /home/user/ros2_ws/install/nav2_project/share/nav2_project/launch
+[3.817s] copying launch/project_navigation_with_tools_launch.py -> /home/user/ros2_ws/install/nav2_project/share/nav2_project/launch
+[3.817s] copying launch/go_to_pose.launch.py -> /home/user/ros2_ws/install/nav2_project/share/nav2_project/launch
+[3.817s] creating /home/user/ros2_ws/install/nav2_project/share/nav2_project/config
+[3.817s] copying config/turtlebot3_house.yaml -> /home/user/ros2_ws/install/nav2_project/share/nav2_project/config
+[3.817s] copying config/nav2_project.yaml -> /home/user/ros2_ws/install/nav2_project/share/nav2_project/config
+[3.817s] copying config/project_params.yaml -> /home/user/ros2_ws/install/nav2_project/share/nav2_project/config
+[3.818s] copying config/spot-list.yaml -> /home/user/ros2_ws/install/nav2_project/share/nav2_project/config
+[3.818s] copying config/turtlebot3_house.pgm -> /home/user/ros2_ws/install/nav2_project/share/nav2_project/config
+[3.818s] copying config/nav2_default_view.rviz -> /home/user/ros2_ws/install/nav2_project/share/nav2_project/config
+[3.818s] copying config/navigate_w_replanning_and_recovery.xml -> /home/user/ros2_ws/install/nav2_project/share/nav2_project/config
+[3.818s] copying config/cartographer.lua -> /home/user/ros2_ws/install/nav2_project/share/nav2_project/config
+[3.818s] running install_egg_info
+[3.820s] Copying ../../../build/nav2_project/nav2_project.egg-info to /home/user/ros2_ws/install/nav2_project/lib/python3.8/site-packages/nav2_project-0.0.0-py3.8.egg-info
+[3.821s] running install_scripts
+[3.842s] Installing go_to_pose script to /home/user/ros2_ws/install/nav2_project/lib/nav2_project
+[3.842s] Installing spot_recorder script to /home/user/ros2_ws/install/nav2_project/lib/nav2_project
+[3.842s] writing list of installed files to '/home/user/ros2_ws/build/nav2_project/install.log'
+[3.861s] Invoked command in '/home/user/ros2_ws/src/ros2_nav_files/nav2_project' returned '0': PYTHONPATH=/home/user/ros2_ws/install/nav2_project/lib/python3.8/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 setup.py egg_info --egg-base ../../../build/nav2_project build --build-base /home/user/ros2_ws/build/nav2_project/build install --prefix /home/user/ros2_ws/install/nav2_project --record /home/user/ros2_ws/build/nav2_project/install.log --single-version-externally-managed
