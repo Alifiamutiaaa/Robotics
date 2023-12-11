@@ -1,0 +1,30 @@
+#VRML_SIM R2020b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation -0.6931032800836722 0.6931032800836722 0.1980295085953349 0.75
+  position 1.251433831604708 1.660130212881952 2.3876333341591836
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 2 2
+}
+E-puck {
+  hidden position_0_0 -3.095608937353843e-08
+  hidden position_0_1 -3.095614738941912e-08
+  hidden translation_1 -0.026 0.02 0
+  hidden rotation_1 0.9999999999999999 0 0 2.9802322387695313e-08
+  hidden translation_2 0.026 0.02 0
+  hidden rotation_2 1 0 0 2.9802322387695313e-08
+  translation -1.6661750090556385e-10 -6.396824238881667e-05 9.677225488320925e-11
+  rotation 0.0002824061818073434 3.0055088829335624e-09 -0.9999999601233733 -5.95347478212021e-06
+  controller "distance"
+  groundSensorsSlot [
+    DistanceSensor {
+    }
+  ]
+}
